@@ -1,0 +1,24 @@
+{
+  "name": "session-mysql-backend",
+  "version": "1.0.0",
+  "description": "Express 기반 백엔드 서버. express-session을 활용하여 login기능구현.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leehyen/session-mysql-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leehyen/session-mysql-backend/issues"
+  },
+  "homepage": "https://github.com/leehyen/session-mysql-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mysql": "^2.18.1"
+  }
+}
